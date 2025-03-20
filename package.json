@@ -1,0 +1,21 @@
+{
+  "name": "mcp-game",
+  "type": "module",
+  "scripts": {
+    "start:challenge1": "node act1/mcp-client.js",
+    "start:challenge2": "node act2/mcp-client.js",
+    "start:challenge3": "node act3/mcp-client.js",
+    "start:challenge4": "node act4/mcp-client.js",
+    "start:challenge5": "node act5/mcp-client.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.7.0",
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.13.10",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.6",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2",
+    "zod": "^3.24.2"
+  }
+}
